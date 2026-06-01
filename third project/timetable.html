@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>College Timetable</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>body{font-family:Arial,Helvetica,sans-serif}</style>
+</head>
+<body>
+  <header>
+    <h1>College Timetable</h1>
+    <nav><a href="index.html">← Back</a></nav> 
+  </header>
+  <main>
+    <section class="timetable-container">
+      <div class="timetable-grid" role="grid" aria-label="College timetable">
+        <!-- Header row -->
+        <div class="cell corner" aria-hidden="true"></div>
+        <div class="cell day" data-label="Day">Monday</div>
+        <div class="cell day" data-label="Day">Tuesday</div>
+        <div class="cell day" data-label="Day">Wednesday</div>
+        <div class="cell day" data-label="Day">Thursday</div>
+        <div class="cell day" data-label="Day">Friday</div>
+
+        <!-- 08:00–09:00 -->
+        <div class="cell time" data-label="Time">08:00–09:00</div>
+        <div class="cell" data-label="Monday">Math 101<br><span class="room">Room A1</span></div>
+        <div class="cell" data-label="Tuesday">Physics 101<br><span class="room">Room B2</span></div>
+        <div class="cell" data-label="Wednesday">Chemistry 101<br><span class="room">Room C3</span></div>
+        <div class="cell" data-label="Thursday">English 101<br><span class="room">Room D4</span></div>
+        <div class="cell" data-label="Friday">Sports</div>
+
+        <!-- 09:00–10:00 -->
+        <div class="cell time" data-label="Time">09:00–10:00</div>
+        <div class="cell" data-label="Monday">Comp Sci 101<br><span class="room">Lab 1</span></div>
+        <div class="cell" data-label="Tuesday">Math 101<br><span class="room">Room A1</span></div>
+        <div class="cell" data-label="Wednesday">Comp Sci 101<br><span class="room">Lab 1</span></div>
+        <div class="cell" data-label="Thursday">Physics 101<br><span class="room">Room B2</span></div>
+        <div class="cell" data-label="Friday">Elective</div>
+
+        <!-- 10:00–11:00 -->
+        <div class="cell time" data-label="Time">10:00–11:00</div>
+        <div class="cell" data-label="Monday">Biology 101<br><span class="room">Room E5</span></div>
+        <div class="cell" data-label="Tuesday">English 101<br><span class="room">Room D4</span></div>
+        <div class="cell" data-label="Wednesday">Math 101<br><span class="room">Room A1</span></div>
+        <div class="cell" data-label="Thursday">Chemistry 101<br><span class="room">Room C3</span></div>
+        <div class="cell" data-label="Friday">Lab</div>
+
+        <!-- 11:00–12:00 -->
+        <div class="cell time" data-label="Time">11:00–12:00</div>
+        <div class="cell" data-label="Monday">Free</div>
+        <div class="cell" data-label="Tuesday">Workshop</div>
+        <div class="cell" data-label="Wednesday">Seminar</div>
+        <div class="cell" data-label="Thursday">Free</div>
+        <div class="cell" data-label="Friday">Project</div>
+
+        <!-- 12:00–13:00 Lunch (span across days) -->
+        <div class="cell time" data-label="Time">12:00–13:00</div>
+        <div class="cell lunch span-all" data-label="All Days">Lunch Break</div>
+
+        <!-- 13:00–14:00 -->
+        <div class="cell time" data-label="Time">13:00–14:00</div>
+        <div class="cell" data-label="Monday">Lab Session<br><span class="room">Lab 2</span></div>
+        <div class="cell" data-label="Tuesday">Comp Sci 101<br><span class="room">Lab 1</span></div>
+        <div class="cell" data-label="Wednesday">Math 101<br><span class="room">Room A1</span></div>
+        <div class="cell" data-label="Thursday">English 101<br><span class="room">Room D4</span></div>
+        <div class="cell" data-label="Friday">Free</div>
+
+        <!-- 14:00–15:00 -->
+        <div class="cell time" data-label="Time">14:00–15:00</div>
+        <div class="cell" data-label="Monday">Elective</div>
+        <div class="cell" data-label="Tuesday">Physics 101</div>
+        <div class="cell" data-label="Wednesday">Workshop</div>
+        <div class="cell" data-label="Thursday">Comp Sci 101</div>
+        <div class="cell" data-label="Friday">Club Activities</div>
+
+        <!-- 15:00–16:00 -->
+        <div class="cell time" data-label="Time">15:00–16:00</div>
+        <div class="cell" data-label="Monday">Study Hour</div>
+        <div class="cell" data-label="Tuesday">Study Hour</div>
+        <div class="cell" data-label="Wednesday">Study Hour</div>
+        <div class="cell" data-label="Thursday">Study Hour</div>
+        <div class="cell" data-label="Friday">Study Hour</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
